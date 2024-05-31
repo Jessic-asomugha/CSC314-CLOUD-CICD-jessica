@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NACOS Payment Portal</title>
+    <link rel="stylesheet" href="pay-styling.css">
+</head>
+<body>
+    <div class="header">
+        <div>NACOS Payment Portal</div>
+    </div>
+
+    <div class="title">
+        <h1>Make Your Payment</h1>
+    </div>
+
+    <div class="payment-form">
+        <h2>Payment Information</h2>
+        <form>
+            <div class="form-group">
+                <label for="fullName">Full Name</label>
+                <input type="text" id="fullName" name="fullName" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="matno">Matric number</label>
+                <input type="text" id="matno" name="matno" required>
+            </div>
+
+            <div class="form-group">
+                <label for="paymentMethod">Payment Method</label>
+                <select id="paymentMethod" name="paymentMethod" required>
+                    <option value="" disabled selected>Select a payment method</option>
+                    <option value="creditCard">Credit Card</option>
+                    <option value="debitCard">Debit Card</option>
+                    <option value="paypal">PayPal</option>
+                    <option value="bankTransfer">Bank Transfer</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <a href="html test file.html">
+                    <button>Submit Payment</button>
+                </a>
+            </div>
+        </form>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 NACOS. All rights reserved.</p>
+    </div>
+</body>
+</html>
